@@ -1,0 +1,9 @@
+{
+  "compareFolders.excludeFilter": [
+    "/ios",
+    "/.pnpm-store",
+    "/android",
+    "/.git",
+    "/patches"
+  ]
+}
