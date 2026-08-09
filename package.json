@@ -18,7 +18,6 @@
     "react-native": "0.86.2",
     "react-native-gesture-handler": "^3.1.0",
     "react-native-haptic-feedback": "^3.0.0",
-    "react-native-pulsar": "^1.6.1",
     "react-native-reanimated": "^4.5.3",
     "react-native-safe-area-context": "^5.5.2",
     "react-native-screens": "^4.26.2",

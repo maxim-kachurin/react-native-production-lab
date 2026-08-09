@@ -76,3 +76,6 @@ yarn-error.log
 
 # pnpm
 .pnpm-store/
+
+# VS Code
+.vscode/
