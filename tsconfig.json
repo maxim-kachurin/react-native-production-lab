@@ -6,7 +6,7 @@
       "@components": ["./src/components"],
       "@constants": ["./src/constants"],
       "@hooks/*": ["./src/hooks/*"],
-      "@navigation/*": ["./src/navigation/*"],
+      "@navigation": ["./src/navigation"],
       "@screens/*": ["./src/screens/*"],
       "@theme": ["./src/theme"],
       "@types": ["./src/types"],
