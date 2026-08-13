@@ -1,41 +1,23 @@
-import {
-  StyleSheet,
-  TouchableOpacity,
-  TouchableOpacityProps,
-} from "react-native";
+import { ColorName } from "@theme";
+import { PressableSurface, PressableSurfaceProps } from "../pressable-surface";
 import { Icon } from "../icon";
 import { IconName } from "../icon/icons";
 
-type IconButtonProps = TouchableOpacityProps & {
+export type IconButtonProps = PressableSurfaceProps & {
   icon: IconName;
-  height?: number;
-  width?: number;
   iconSize?: number;
+  iconColor?: ColorName;
 };
 
 export const IconButton = ({
   icon,
-  height,
-  width,
   iconSize,
-  style,
+  iconColor,
   ...props
 }: IconButtonProps) => {
   return (
-    <TouchableOpacity
-      accessibilityRole="button"
-      style={[styles.container, style, { height, width }]}
-      {...props}>
-      <Icon name={icon} size={iconSize} />
-    </TouchableOpacity>
+    <PressableSurface {...props}>
+      <Icon name={icon} size={iconSize} color={iconColor} />
+    </PressableSurface>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    height: 32,
-    width: 32,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});

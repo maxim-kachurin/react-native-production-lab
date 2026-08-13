@@ -1,5 +1,6 @@
 import { ColorName, colors } from "@theme";
 import { IconName, icons } from "./icons";
+import { s } from "@utils";
 
 export type IconProps = {
   name: IconName;
@@ -12,7 +13,7 @@ export type IconProps = {
 
 export const Icon = ({
   name,
-  size = 24,
+  size = s(24),
   height,
   width,
   color = "black",
