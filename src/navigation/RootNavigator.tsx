@@ -4,7 +4,7 @@ import {
 } from "@react-navigation/native-stack";
 import AdjustmentWheelScreen from "@screens/adjustment-wheel-screen";
 // import AppleWalletScreen from "@screens/apple-wallet-screen";
-// import HorizontalPagerScreen from "@screens/horizontal-pager-screen";
+import HorizontalPagerScreen from "@screens/horizontal-pager-screen";
 import HomeScreen from "@screens/home-screen";
 
 import { Routes } from "./routes";
@@ -21,11 +21,11 @@ export const RootNavigator = () => {
   return (
     <Stack.Navigator screenOptions={screenOptions}>
       <Stack.Screen name={Routes.Home} component={HomeScreen} />
-      {/* <Stack.Screen
+      <Stack.Screen
         name={Routes.HorizontalPager}
         component={HorizontalPagerScreen}
         options={{ gestureEnabled: true }}
-      /> */}
+      />
       <Stack.Screen
         name={Routes.AdjustmentWheel}
         component={AdjustmentWheelScreen}

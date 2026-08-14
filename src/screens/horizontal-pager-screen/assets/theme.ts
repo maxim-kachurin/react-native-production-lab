@@ -1,0 +1,23 @@
+export const theme = {
+  colors: {
+    white: "#FFFFFF",
+    offWhite: "#EEEEEE",
+    black: "#151D2B",
+    background: "#252836",
+    gray: "#666972",
+    lightGray: "#A1A5AA",
+    blueGray: "#9C9DA9",
+    green: "#3E8B6F",
+    greenBlueLight: "#3784C5",
+    greenBlueMidDark: "#355270",
+    greenBlueDark: "#344D6B",
+    blueLight: "#5386E4",
+    blueMid: "#4062BB",
+    blueMidDark: "#3A58A8",
+    blueDark: "#3B518C",
+    azure: "#3782ED",
+    yellow: "#E59935",
+    orange: "#EB5D3C",
+    red: "#F02B19",
+  },
+};
