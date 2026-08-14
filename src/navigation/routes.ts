@@ -1,6 +1,6 @@
 export const Routes = {
   Home: "Home",
-  ContactList: "ContactList",
+  HorizontalPager: "HorizontalPager",
   AdjustmentWheel: "AdjustmentWheel",
   AppleWallet: "AppleWallet",
 } as const;

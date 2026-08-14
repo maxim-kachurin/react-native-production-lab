@@ -6,7 +6,7 @@ export type ScreenListEntry = {
 };
 
 export const SCREEN_LIST: ScreenListEntry[] = [
-  { title: "📱 Contact List", destination: Routes.ContactList },
+  { title: "📱 Horizontal Pager", destination: Routes.HorizontalPager },
   { title: "⚙️ Adjustment Wheel", destination: Routes.AdjustmentWheel },
   { title: "🍏 Apple Wallet", destination: Routes.AppleWallet },
 ];
