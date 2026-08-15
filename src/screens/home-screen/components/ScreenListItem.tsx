@@ -1,5 +1,5 @@
-import { StyleSheet, Text, TouchableOpacity } from "react-native";
-import { mvs, s } from "@utils";
+import { StyleSheet, Text, TouchableHighlight, View } from "react-native";
+import { mvs, s, vs } from "@utils";
 import { colors } from "@theme";
 import { Icon } from "@components";
 import { type RouteName } from "@navigation";
@@ -12,28 +12,27 @@ export type ScreenListItemProps = {
 
 const ScreenListItem = ({ item, onPress }: ScreenListItemProps) => {
   return (
-    <TouchableOpacity
-      style={styles.row}
+    <TouchableHighlight
+      underlayColor={"#111111"}
       onPress={() => onPress(item.destination)}>
-      <Text style={styles.label}>{item.title}</Text>
-      <Icon name="chevronForward" size={s(20)} color="darkGray" />
-    </TouchableOpacity>
+      <View style={styles.row}>
+        <Text style={styles.label}>{item.title}</Text>
+        <Icon name="chevronForward" size={s(20)} customColor="#bcbcbc" />
+      </View>
+    </TouchableHighlight>
   );
 };
 
 const styles = StyleSheet.create({
   row: {
     marginHorizontal: s(20),
-    paddingTop: mvs(25),
-    paddingBottom: mvs(17),
+    paddingTop: vs(23),
+    paddingBottom: vs(23),
     flexDirection: "row",
-    alignItems: "center",
     justifyContent: "space-between",
-    borderBottomColor: colors.lightGray,
-    borderBottomWidth: 1,
   },
   label: {
-    color: colors.black,
+    color: colors.text,
     fontSize: mvs(16),
   },
 });

@@ -11,8 +11,9 @@ export type ScreenSafeArea = "none" | "top" | "bottom" | "vertical";
 
 export type ScreenProps = ViewProps & {
   safeArea?: ScreenSafeArea;
-  statusBarStyle: StatusBarStyle;
-  background?: ColorName;
+  barStyle?: StatusBarStyle;
+  /** Defaults to global theme background, pass `null` to opt out. */
+  background?: ColorName | null;
 };
 
 const SAFE_AREA_EDGES = {
@@ -25,8 +26,8 @@ const SAFE_AREA_EDGES = {
 export const Screen = ({
   children,
   safeArea = "vertical",
-  statusBarStyle,
-  background,
+  barStyle = "default",
+  background = "background",
   style,
   ...rest
 }: ScreenProps) => (
@@ -38,7 +39,7 @@ export const Screen = ({
       background && { backgroundColor: colors[background] },
       style,
     ]}>
-    <StatusBar barStyle={statusBarStyle} />
+    <StatusBar barStyle={barStyle} />
     {children}
   </SafeAreaView>
 );

@@ -1,6 +1,14 @@
-export const colors = {
-  white: "#FFFFFF",
+const palette = {
   black: "#000000",
+  white: "#FFFFFF",
+} as const;
+
+export const colors = {
+  text: palette.white,
+  background: palette.black,
+
+  //TODO: move raw colors to palette
+  separator: "#222222",
   gray: "#666972",
   lightGray: "#C5C5C7",
   darkGray: "#424242",
