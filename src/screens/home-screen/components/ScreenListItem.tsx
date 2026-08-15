@@ -17,7 +17,7 @@ const ScreenListItem = ({ item, onPress }: ScreenListItemProps) => {
       onPress={() => onPress(item.destination)}>
       <View style={styles.row}>
         <Text style={styles.label}>{item.title}</Text>
-        <Icon name="chevronForward" size={s(20)} customColor="#bcbcbc" />
+        <Icon name="chevronForward" size={s(20)} color="foregroundSecondary" />
       </View>
     </TouchableHighlight>
   );

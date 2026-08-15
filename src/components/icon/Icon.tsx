@@ -16,7 +16,7 @@ export const Icon = ({
   size = s(24),
   height,
   width,
-  color = "black",
+  color = "foreground",
   customColor,
 }: IconProps) => {
   const SVGComponent = icons[name];

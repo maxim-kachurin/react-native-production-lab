@@ -7,7 +7,7 @@ import { s } from "@utils";
 export type BackButtonProps = Omit<IconButtonProps, "icon">;
 
 export const BackButton = ({
-  iconColor = "white",
+  iconColor = "foreground",
   iconSize = s(28),
   height = s(48),
   width = s(48),
