@@ -2,8 +2,13 @@ import { IconName } from "@components";
 import { Animated } from "react-native";
 import type { JSX } from "react";
 
+/** Icon names with a matching outline pair. */
+type IconNameWithOutline = {
+  [K in IconName]: `${K}Outline` extends IconName ? K : never;
+}[IconName];
+
 export type AnimatedIcon = {
-  iconName: IconName;
+  iconName: IconNameWithOutline;
   iconSize: number;
   iconScaleFactor: number;
 };

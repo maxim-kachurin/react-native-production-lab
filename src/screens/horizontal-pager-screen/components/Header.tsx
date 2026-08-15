@@ -74,8 +74,8 @@ const Header = ({ title, subtitle, scrollY }: HeaderProps) => {
             transform: [{ translateY: buttonsTY }],
           },
         ]}>
-        <Icon name="search" size={s(26)} color="white" />
-        <Icon name="add" size={s(34)} color="white" />
+        <Icon name="search" size={s(26)} color="foreground" />
+        <Icon name="add" size={s(34)} color="foreground" />
       </Animated.View>
     </View>
   );

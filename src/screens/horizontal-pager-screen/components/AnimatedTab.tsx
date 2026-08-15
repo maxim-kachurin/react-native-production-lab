@@ -5,7 +5,6 @@ import { theme } from "../assets/theme";
 import { AnimatedTabProps } from "./types";
 import { Icon } from "@components";
 
-//TODO type iconName
 const AnimatedTab = ({
   iconName,
   iconSize,
@@ -46,15 +45,10 @@ const AnimatedTab = ({
       </View>
       <Animated.View style={{ transform: [{ scale }] }}>
         <View style={styles.outlineIconContainer}>
-          <Icon
-            //TODO limit to cerain icons
-            name={`${iconName}Outline`}
-            size={iconSize}
-            color="gray"
-          />
+          <Icon name={`${iconName}Outline`} size={iconSize} color="gray" />
         </View>
         <Animated.View style={{ opacity }}>
-          <Icon name={iconName} size={iconSize} color="white" />
+          <Icon name={iconName} size={iconSize} color="foreground" />
         </Animated.View>
       </Animated.View>
     </TouchableOpacity>
