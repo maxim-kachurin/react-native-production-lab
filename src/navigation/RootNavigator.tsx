@@ -3,8 +3,8 @@ import {
   NativeStackNavigationOptions,
 } from "@react-navigation/native-stack";
 import AdjustmentWheelScreen from "@screens/adjustment-wheel-screen";
-// import AppleWalletScreen from "@screens/apple-wallet-screen";
 import HorizontalPagerScreen from "@screens/horizontal-pager-screen";
+import AppleWalletScreen from "@screens/apple-wallet-screen";
 import HomeScreen from "@screens/home-screen";
 
 import { Routes } from "./routes";
@@ -30,7 +30,7 @@ export const RootNavigator = () => {
         name={Routes.AdjustmentWheel}
         component={AdjustmentWheelScreen}
       />
-      {/* <Stack.Screen name={Routes.AppleWallet} component={AppleWalletScreen} /> */}
+      <Stack.Screen name={Routes.AppleWallet} component={AppleWalletScreen} />
     </Stack.Navigator>
   );
 };

@@ -2,14 +2,14 @@ export const MAX_PRESS_MS = 10000;
 
 export const CANCEL_DISTANCE = 24;
 
-export const FILL = "rgba(255,255,255,0.05)";
+export const FILL = "#0D0D0D";
 export const FILL_PRESSED = "rgba(255,255,255,0.38)";
 
 export const EDGE = "rgba(255,255,255,0.15)";
 export const EDGE_PRESSED = "rgba(255,255,255,0.55)";
 
 /** Content sits dimmed until the press lights it up. */
-export const CONTENT_REST_OPACITY = 0.6;
+export const CONTENT_REST_OPACITY = 0.9;
 
 export const SPRING_PRESS_CONFIG = {
   mass: 1,

@@ -10,8 +10,10 @@
 		0C80B921A6F3F58F76C31292 /* libPods-rnui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-rnui.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		802936473C194599A09335B9 /* Switzer-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 755F957510B741E68661E3DB /* Switzer-Bold.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		95139193945790B381175251 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		CE7E3845F27A4D818E04A1E0 /* Switzer-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 839F95D727C74AC2BDCF7EB1 /* Switzer-Regular.otf */; };
 		DCF59A4DB9AA4B73BD7F0A9D /* Monda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9FE9409C292409B887AAD9C /* Monda-Regular.ttf */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +25,10 @@
 		3B4392A12AC88292D35C810B /* Pods-rnui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnui.debug.xcconfig"; path = "Target Support Files/Pods-rnui/Pods-rnui.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-rnui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rnui.release.xcconfig"; path = "Target Support Files/Pods-rnui/Pods-rnui.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-rnui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rnui.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755F957510B741E68661E3DB /* Switzer-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Switzer-Bold.otf"; path = "../src/assets/fonts/Switzer-Bold.otf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = rnui/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rnui/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839F95D727C74AC2BDCF7EB1 /* Switzer-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Switzer-Regular.otf"; path = "../src/assets/fonts/Switzer-Regular.otf"; sourceTree = "<group>"; };
 		C9FE9409C292409B887AAD9C /* Monda-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Monda-Regular.ttf"; path = "../src/assets/fonts/Monda-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C9FE9409C292409B887AAD9C /* Monda-Regular.ttf */,
+				755F957510B741E68661E3DB /* Switzer-Bold.otf */,
+				839F95D727C74AC2BDCF7EB1 /* Switzer-Regular.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -173,6 +179,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				DCF59A4DB9AA4B73BD7F0A9D /* Monda-Regular.ttf in Resources */,
 				95139193945790B381175251 /* PrivacyInfo.xcprivacy in Resources */,
+				802936473C194599A09335B9 /* Switzer-Bold.otf in Resources */,
+				CE7E3845F27A4D818E04A1E0 /* Switzer-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SK79X26FP5;
+				DEVELOPMENT_TEAM = 994M36343R;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = rnui/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
@@ -311,7 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SK79X26FP5;
+				DEVELOPMENT_TEAM = 994M36343R;
 				INFOPLIST_FILE = rnui/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (

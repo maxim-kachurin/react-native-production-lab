@@ -4,6 +4,14 @@
     {
       "path": "src/assets/fonts/Monda-Regular.ttf",
       "sha1": "c0404b9f3565bbb425f2f1d700bda0f56d54a42b"
+    },
+    {
+      "path": "src/assets/fonts/Switzer-Bold.otf",
+      "sha1": "1ba1a677ea140e785856aae36e692d49a07015e8"
+    },
+    {
+      "path": "src/assets/fonts/Switzer-Regular.otf",
+      "sha1": "f0a7eb123220f32bb95d3d2325c8bdcb734aba32"
     }
   ]
 }
