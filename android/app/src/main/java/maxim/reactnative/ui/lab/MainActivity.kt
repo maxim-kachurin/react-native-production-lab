@@ -1,4 +1,4 @@
-package com.rnui
+package maxim.reactnative.ui.lab
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

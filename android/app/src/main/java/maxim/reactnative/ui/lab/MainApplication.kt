@@ -1,4 +1,4 @@
-package com.rnui
+package maxim.reactnative.ui.lab
 
 import android.app.Application
 import com.facebook.react.PackageList

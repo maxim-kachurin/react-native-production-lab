@@ -294,7 +294,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.ui.lab.app;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim.reactnative.ui.lab.$(DEVELOPMENT_TEAM)";
 				PRODUCT_NAME = rnui;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -324,7 +324,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxim.ui.lab.app;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxim.reactnative.ui.lab.$(DEVELOPMENT_TEAM)";
 				PRODUCT_NAME = rnui;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;

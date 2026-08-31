@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.rnui"
+    namespace "maxim.reactnative.ui.lab"
     defaultConfig {
-        applicationId "com.rnui"
+        applicationId "maxim.reactnative.ui.lab"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
