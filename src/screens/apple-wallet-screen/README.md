@@ -1,6 +1,10 @@
 # Wallet
 
-Animated wallet cards with consumer-owned data and content.
+Apple Wallet style interaction.
+
+<img width="292" height="470" alt="appleWalletV2" src="https://github.com/user-attachments/assets/d1d8a9a6-2962-4b2a-9129-7e0e4a2dde2a" />
+
+## Usage
 
 ```tsx
 import { Text, View } from "react-native";
@@ -49,9 +53,27 @@ export const WalletScreen = () => (
 );
 ```
 
-Requires React Native Gesture Handler, Reanimated, and Worklets. See the
-[Wallet reference guide](./components/wallet/README.md) for cards with details,
-layout, insets, and the full API.
+## Dependencies
+
+React Native Gesture Handler, Reanimated, and Worklets.
+
+```sh
+# npm
+npm install react-native-gesture-handler react-native-reanimated react-native-worklets
+
+# yarn
+yarn add react-native-gesture-handler react-native-reanimated react-native-worklets
+
+# pnpm
+pnpm add react-native-gesture-handler react-native-reanimated react-native-worklets
+
+# bun
+bun add react-native-gesture-handler react-native-reanimated react-native-worklets
+```
+
+## API
+
+Work in progress.
 
 ## License
 
