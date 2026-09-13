@@ -1,0 +1,9 @@
+// Project-level defaults.
+// To use a different bundle identifier on this machine, create
+// Config/Local.xcconfig (gitignored) containing:
+//
+//     APP_BUNDLE_ID = com.example.myapp
+
+APP_BUNDLE_ID = maxim.reactnative.ui.lab.$(DEVELOPMENT_TEAM)
+
+#include? "Local.xcconfig"
