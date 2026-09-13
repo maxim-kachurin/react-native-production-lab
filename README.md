@@ -4,7 +4,7 @@
   <img
     src="./src/assets/images/testFlightBadge.png"
     alt="Try it on TestFlight"
-    width="220"
+    width="165"
   />
 </a>
 
